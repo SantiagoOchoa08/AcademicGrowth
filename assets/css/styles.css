@@ -110,8 +110,9 @@ article .imgcont {
     background-color: rgb(40, 37, 37);
     color: #fff;
     padding: 10px;
-    
+    font-size: 10px;
 }
 #piepagina a {
     color: #fff;
+    font-size: 10px;
 }
