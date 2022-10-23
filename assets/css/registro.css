@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
 *{
   
     margin: 0%;
     padding: 0%;
+    text-decoration: none;
+    overflow-x: hidden;
 }
 #header{
     width: 100%;
     position: sticky;
     z-index: 100;
-    
+    padding: 20px;
     background-color: rgb(255, 233, 233);
 
+}
+
+h1 {
+    text-align: center;
+    color: blue;
 }
 
 .links{
@@ -37,6 +45,7 @@ button {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
+    margin-bottom: 10px;
   }
   
   button:hover {
@@ -67,7 +76,6 @@ button {
 
   #home h1{
       font-size: 70px;
-      background-color: #fff;
       font-family: 'Abyssinica SIL', serif;
   }
 
@@ -75,3 +83,36 @@ button {
       width: 100%;
       height: 100px;
   }
+
+  #fondo {
+    background-color: rgb(202, 246, 247); 
+  }
+
+#registrarse {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+form h3 {
+    border: 5px black outset;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#piepagina {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40, 37, 37);
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+}
+#piepagina a {
+    color: #fff;
+    font-size: 10px;
+}
