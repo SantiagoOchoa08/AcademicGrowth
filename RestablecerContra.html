@@ -4,32 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Growth</title>
+    <title>Restablecer contraseña</title>
     <link rel="stylesheet" href="./assets/css/Restabl.css">
     <link rel="icon" href="./Imagenes/Logoo.PNG">
 </head>
-<body>
+<body id="fondo">
     <header id="header">
         <nav class="links">
           <div class="logo">
-           <a href="principal_estudiantes.html"><img src="./Imagenes/Logoo.PNG" alt="logo"></a>
+           <a href="index.html"><img src="./Imagenes/Logoo.PNG" alt="logo"></a>
           </div>
           <div>
+            <a href="iniciarsesion.html">
             <button>
                 Volver
-            </button>
+            </button> 
+            </a>
+            <a href="Registro.html">
             <button>
-                Iniciar sesion
+                Registrarse
             </button>
+            </a>
           </div>
         </nav>
     </header>
-    <h1>¿OLVIDASTE TU CONTRASEÑA?</h1>
-
+    <div id="home">
+    <h1>¿Olvidaste tu contraseña?</h1>
+    </div>
     <div class="container">
-        <form action="" class="form">
+        <form>
             <div class="form_correo">
-                <input type="email" placeholder="Ingrese su correo" class="correo"> 
+                <input type="email" placeholder="Ingrese su correo" class="form"> 
             </div>
             <div class="form_button">
                  <br>
@@ -37,27 +42,26 @@
             </div>
         </form>
     </div> <br>
-    <section>
-        <h2>INGRESA EL CÓDIGO</h2> <br>
+    <section id="verificacion">
+        <h2 class="titulo">Ingresa el código</h2> <br>
         <form>
-            <input type="number" placeholder="Ingresa el codigo"> 
+            <input class="form" type="number" placeholder="Ingresa el codigo"> 
         </form>
     </section>
 
     <br> 
-    <section>
-     
-        <h3> Ingrese su nueva contraseña </h3>
+    <section id="cambio">
+        <h2 class="titulo"> Ingrese su nueva contraseña </h2> <br> 
         <form>
-            <input type="password" placeholder="ingrese la contraseña"><br><br>
-            <input type="password" placeholder="confirmar contraseña"> 
+            <input class="form" type="password" placeholder="ingrese la contraseña"><br><br>
+            <input class="form" type="password" placeholder="confirmar contraseña"> 
         </form> <br>
         <br>
         <button> Guardar</button>
     </section>
-    <footer> <br><br> <hr>
+    <footer id="piepagina"> 
         <a href="mailto: santiagoochoaherrera08@gmail.com"> Contactanos </a>
-        <a href="#">¿Quienes somos?</a>
+        <a href="quienessomos.html">¿Quienes somos?</a>
         <a href="#">Referencias</a>
         <p>Copy Right 2022</p>
     </footer>
