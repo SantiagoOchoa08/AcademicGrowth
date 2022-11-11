@@ -27,7 +27,6 @@ h1 {
     width: auto;
     height: 100%;
     column-gap: 20px;
-    margin: 0% 10px 10px 10px;
     align-items: center;
 }
 
@@ -104,15 +103,39 @@ form h3 {
     margin-bottom: 10px;
 }
 
-#piepagina {
+footer {
     display: flex;
     justify-content: space-between;
     background-color: rgb(40, 37, 37);
     color: #fff;
     padding: 10px;
-    font-size: 10px;
-}
-#piepagina a {
+    font-size: 20px;
+    height: 50px;
+    flex-wrap: wrap;
+  }
+  footer a {
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+
+    header button {
+      height: 50px;
+    }
+    
+    .botones {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+    #informacion p {
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+}
+.form_title h2 {
+    font-size: 50px;
+    color: blue;
+    font-family: 'Abyssinica SIL', serif;
+    margin-bottom: 20px;
 }

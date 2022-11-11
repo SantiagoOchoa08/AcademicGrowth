@@ -89,9 +89,15 @@ header button {
 
 .botones {
   display: flex;
-  flex-direction: column;
-  row-gap: 20px;
+  column-gap: 20px;
 }
+}
+@media screen and (max-width: 400px) {
+  .botones {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
 }
 #fondo {
   background-color: rgb(202, 246, 247);
@@ -152,6 +158,11 @@ body {
   }
   .contenedor {
     row-gap: 3rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  body {
+    height: auto;
   }
 }
 .contenedor_contenido {

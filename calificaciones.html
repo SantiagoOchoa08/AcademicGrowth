@@ -7,44 +7,48 @@
     <title>Academic Growth</title>
     <link rel="icon" href="Imagenes/Logoo.PNG">
     <link rel="stylesheet" href="./assets/css/calificaciones.css">
+    <script src="https://kit.fontawesome.com/1e492ccad6.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="fondo">
     <header id="header">
         <nav class="links">
           <div class="logo">
-           <a href="principal_estudiantes.html"><img src="./Imagenes/Logoo.PNG" alt="logo"></a>
+            <a href="principal_estudiantes.html"><img src="./Imagenes/Logoo.PNG" alt="logo"> </a>
           </div>
-          <div>
-            <button>
+          <div class="botones">
+            <a href="perfil.html"><button>
                 Perfil
-            </button>
-            <button>
+            </button> </a>
+            <a href="index.html"><button>
                 Cerrar sesión
-            </button>
+            </button> </a>
           </div>
         </nav>
-    </header>
-    <a href="notas.html"><img src="./Imagenes/flecha-izquierda.png" alt="volver" width="20"></a>
-    <section>
+      </header>
+    <section class="titulos">
         <h1>Notas del estudiante</h1>
         <h2>Santiago Ochoa Herrera</h2>
-    </section> <br> <br>
-    <section>
-        <h2>Matematicas</h2>
-        <img src="./Imagenes/advertencia-de-motor.png" alt="alerta" width="50">
-        <p>Llevas tu matieria en 5.0. Eres un gran estudiante, lo estás haciendo increible, sigue así!</p>
+    </section> 
+    <section class="materia">
+        <div class="titulo">
+            <h2>Matematicas</h2>
+            <div class="decoración_materia">
+                <img src="./Imagenes/advertencia-de-motor.png" alt="alerta" width="50">
+                <p>Llevas tu matieria en 5.0. Eres un gran estudiante, lo estás haciendo increible, sigue así!</p>
+            </div>
+        </div>
     </section>
-    <section>
-        <table>
+    <section id="Tabla">
+        <table class="Tabla_notas">
             <tr>
                 <th>Item</th>
                 <th>Actividades de matematicas</th>
                 <th>Notas</th>
             </tr>
             <tr>
-                <td>1</td>
-                <td>Actividad1</td>
-                <td>5.0</td>
+                    <td>1</td>
+                    <td>Actividad1</td>
+                    <td>5.0</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -70,9 +74,17 @@
     </section> 
     <footer>
         <a href="mailto: santiagoochoaherrera08@gmail.com"> Contactanos </a>
-        <a href="#">¿Quienes somos?</a>
+        <a href="quienessomos.html">¿Quienes somos?</a>
         <a href="#">Referencias</a>
         <p>Copy Right 2022</p>
-      </footer>
+        <div class="socials">
+          <a href="https://github.com/SantiagoOchoa08" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/santiagoochoaherrera_08/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+    </footer>
 </body>
 </html>

@@ -96,7 +96,8 @@ button {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
+    font-size: 24px;
+    font-family: 'Abyssinica SIL', serif;
 }
 #contenido p {
     text-align: center;
@@ -104,15 +105,20 @@ button {
 article .imgcont {
     margin-bottom: 40px;
 }
-#piepagina{
+footer {
     display: flex;
     justify-content: space-between;
     background-color: rgb(40, 37, 37);
     color: #fff;
     padding: 10px;
-    font-size: 10px;
-}
-#piepagina a {
+    font-size: 20px;
+    height: 50px;
+    flex-wrap: wrap;
+  }
+  footer a {
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
+}
+.botones {
+    margin-right: 15px;
 }

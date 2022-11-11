@@ -52,6 +52,7 @@
     font-family: 'Abyssinica SIL', serif;
     display: flex;
     justify-content: center;
+    font-size: 18px;
   }
 
   .background{
@@ -87,17 +88,20 @@
     display: flex;
     justify-content: center;
     font-family: 'Abyssinica SIL', serif;
+    font-size: 18px;
 }
-#piepagina {
+footer {
     display: flex;
     justify-content: space-between;
     background-color: rgb(40, 37, 37);
     color: #fff;
     padding: 10px;
-    font-size: 10px;
-    margin-top: 48px;
-}
-#piepagina a {
+    font-size: 20px;
+    height: 50px;
+    flex-wrap: wrap;
+    margin-top: 13px;
+  }
+  footer a {
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
 }

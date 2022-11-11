@@ -114,18 +114,20 @@ button {
     flex-direction: column;
     align-items: center;
 }
-#piepagina {
+footer {
     display: flex;
     justify-content: space-between;
     background-color: rgb(40, 37, 37);
     color: #fff;
     padding: 10px;
-    font-size: 10px;
-}
-#piepagina a {
+    font-size: 20px;
+    height: 50px;
+    flex-wrap: wrap;
+  }
+  footer a {
     color: #fff;
-    font-size: 10px;
-}
+    font-size: 20px;
+  }
 
 .form {
     width: 300px;
@@ -144,4 +146,15 @@ h2 {
     border-radius: 10px;
     background-color: #000;
     color: #fff;
+}
+.botones {
+    margin-right: 15px;
+}
+@media screen and (max-width: 481px){
+    .form {
+        width: auto;
+    }
+    #home h1 {
+        font-size: 50px;
+    }
 }

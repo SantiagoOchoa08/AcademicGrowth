@@ -110,17 +110,24 @@ form h2 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-size: 20px;
 }
-#piepagina{
+footer {
     display: flex;
     justify-content: space-between;
     background-color: rgb(40, 37, 37);
     color: #fff;
     padding: 10px;
-    font-size: 10px;
-    margin-top: 71px;
-}
-#piepagina a {
+    font-size: 20px;
+    height: 50px;
+    flex-wrap: wrap;
+  }
+  footer a {
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
+}
+@media screen and (min-width: 481px) {
+    .botones {
+        margin-right: 19px;
+    }
 }
