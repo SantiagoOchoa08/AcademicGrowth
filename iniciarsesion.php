@@ -1,3 +1,17 @@
+<?php
+session_start();
+if ($_POST) {
+  if (($_POST['Usuario'] == "santiagoochoaherrera08@gmail.com") && ($_POST['contrasena'] == "321")) {
+
+    
+    header('location:principal_estudiantes.html');
+  } else {
+    $mensaje = "Error: El usuario o contraseña son incorrectos";
+  }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -21,7 +35,7 @@
                 Volver
             </button>
             </a>
-            <a href="Registro.html">
+            <a href="registro.php">
             <button>
                 Registrate
             </button>
@@ -31,12 +45,12 @@
     </header>
     <section id="home">
         <h1>Inicia sesión</h1> <br><br>
-        <form id="iniciosesion">
+        <form id="iniciosesion" method="POST">
             <h2>Correo</h2> <br>
-            <input type="email" placeholder="Ingrese su correo"> <br> <br>
+            <input type="email" placeholder="Ingrese su correo" name="Usuario"> <br> <br>
             <h2>Contraseña</h2> <br>
-            <input type="password" placeholder="Ingrese su contraseña"> <br> <br>
-            <a href="principal_estudiantes.html"><button type="button">Iniciar sesión</button></a>
+            <input type="password" placeholder="Ingrese su contraseña" name="contrasena"> <br> <br>
+            <button type="submit">Iniciar sesión</button>
         </form> 
     </section> <br>
     <section id="recuerdo">

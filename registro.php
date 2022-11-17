@@ -24,7 +24,7 @@ if ($accion) {
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -57,18 +57,18 @@ if ($accion) {
     </header>
     <section>
 
-        <form method="POST"  class="form" id="registrarse">
+        <formn method="POST"  class="form" id="registrarse">
                 <h2 class="form__title">Registrarse</h2>
                 <h2>Nombre completo</h2>
                 <input class="control" name="txtNombre" type="text"  placeholder="Nombre" class="input" required />
                 <h2>Correo electronico</h2>
                 <input class="control" type="text" name="txtTipo" placeholder="email">
                 <h2>Contraseña</h2>
-                <input class="control" name="txtCorreo" type="text" placeholder="contraseña" class="input" required/>
+                <input class="control" name="txtCorreo" type="password" placeholder="contraseña" class="input" required/>
                 <h2>Confirmar contraseña</h2>
                 <input class="control" type="password" name="txtContrasena"  placeholder="confirmar" class="input" required/>
                 <button type="submit" name="accion"   value="enviar" class="btn">Registrarse</button>
-            </form>
+            </formn>
     </section>
     <footer>
         <a href="mailto: santiagoochoaherrera08@gmail.com"> Contactanos </a>

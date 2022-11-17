@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
 *{
-  
+    text-decoration: none;
     margin: 0%;
     padding: 0%;
 }
@@ -84,8 +85,71 @@ footer {
     font-size: 20px;
     height: 50px;
     flex-wrap: wrap;
+    margin-top: 20px;
   }
   footer a {
     color: #fff;
     font-size: 20px;
+}
+@media screen and (max-width: 769px) {
+
+    header button {
+      height: 50px;
+    }
+    
+    .botones {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+}
+.titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-family: 'Abyssinica SIL', serif;
+    row-gap: 10px;
+}
+.titulos h1 {
+    font-size: 40px;
+}
+.titulos h2 {
+    font-size: 30px;
+}
+table {
+    display: table;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 10px;
+    width: 98%;
+    border: 2px black solid;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-bottom: 40px
+}
+tr th {
+    background-color: cornsilk;
+    border-collapse: collapse;
+}
+tr td {
+    background-color: cornsilk;
+    border-collapse: collapse;
+}
+@media screen and (max-width: 481px) {
+    table {
+        width: 50%;
+        text-align: center;
+    } 
+    tr td input {
+        width: 20%;
+    }  
+}
+#fondo {
+    background-color: rgb(202, 246, 247);
+}
+.numeros {
+    width: 50%;
 }

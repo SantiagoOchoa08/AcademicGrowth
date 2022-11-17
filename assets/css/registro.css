@@ -139,3 +139,22 @@ footer {
     font-family: 'Abyssinica SIL', serif;
     margin-bottom: 20px;
 }
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+.form h2:nth-child(1) {
+    font-size: 50px;
+    color: blue;
+    font-family: 'Abyssinica SIL', serif;
+    margin-bottom: 20px;
+}

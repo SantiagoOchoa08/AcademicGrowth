@@ -144,34 +144,41 @@ footer {
     align-items: center;
     column-gap: 15px;
 }
-#Tabla {
-     display: flex;
-     justify-content: flex-start;
-     align-items: center;
-     height: 53vh;
-     width: 100vw;
-     font-size: 30px;
-     margin-left: 20px;
-}
-.Tabla_notas {
-    border: 3px solid #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Tabla_notas tr {
-    border: 3px solid #000;
-}
-.Tabla_notas th {
-    border: 3px solid #000;
-}
-.Tabla_notas td {
-    border: 3px solid #000;
-}
 .titulo {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+}
+.tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    display: table;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    width: 98%;
+    border: 2px black solid;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-bottom: 40px
+}
+tr th {
+    background-color: cornsilk;
+    border-collapse: collapse;
+}
+tr td {
+    background-color: lightgrey;
+    border-collapse: collapse;
+}
+@media screen and (max-width: 481px) {
+    table {
+        width: 95%;
+        text-align: center;
+    }   
 }
